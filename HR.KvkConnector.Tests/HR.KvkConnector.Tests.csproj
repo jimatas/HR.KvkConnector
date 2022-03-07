@@ -8,10 +8,12 @@
   
   <ItemGroup>
     <None Remove="Fixture\Json\*" />
+    <None Remove="Fixture\Certificates\*" />
   </ItemGroup>
   
   <ItemGroup>
     <EmbeddedResource Include="Fixture\Json\*" />
+    <EmbeddedResource Include="Fixture\Certificates\*" />
   </ItemGroup>
   
   <ItemGroup>
