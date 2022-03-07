@@ -1,0 +1,176 @@
+{
+  "kvkNummer": "41129830",
+  "aantalCommercieleVestigingen": 0,
+  "aantalNietCommercieleVestigingen": 11,
+  "totaalAantalVestigingen": 11,
+  "vestigingen": [
+    {
+      "vestigingsnummer": "000000080896",
+      "eersteHandelsnaam": "Locatie Museumpark",
+      "indHoofdvestiging": "Ja",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Museumpark 40 3015CX Rotterdam",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.kvk.nl/api/v1/basisprofielen/41129830/hoofdvestiging"
+        },
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000080896"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081353",
+      "eersteHandelsnaam": "Locatie Kralingse Zoom",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Kralingse Zoom 91 3063ND Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081353"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081086",
+      "eersteHandelsnaam": "Locatie Academieplein",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "G.J. de Jonghweg 4 3015GG Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081086"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081949",
+      "eersteHandelsnaam": "Locatie Rochussenstraat",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Rochussenstraat 198 3015EK Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081949"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081884",
+      "eersteHandelsnaam": "Locatie RDM Campus",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Heijplaatstraat 17 3089JB Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081884"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081310",
+      "eersteHandelsnaam": "Locatie Wijnhaven 107",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Wijnhaven 107 3011WN Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081310"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081388",
+      "eersteHandelsnaam": "Locatie Wijnhaven 61",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Wijnhaven 61 3011WJ Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081388"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081426",
+      "eersteHandelsnaam": "Locatie Pieter de Hoochweg",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Pieter de Hoochweg 129 3024BG Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081426"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081701",
+      "eersteHandelsnaam": "Locatie Lloydstraat",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Lloydstraat 300 3024EA Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081701"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081833",
+      "eersteHandelsnaam": "Locatie Dordrecht",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Achterom 103 3311KB Dordrecht",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081833"
+        }
+      ]
+    },
+    {
+      "vestigingsnummer": "000000081280",
+      "eersteHandelsnaam": "Lokatie Blaak",
+      "indHoofdvestiging": "Nee",
+      "indAdresAfgeschermd": "Nee",
+      "indCommercieleVestiging": "Nee",
+      "volledigAdres": "Blaak 10 3011TA Rotterdam",
+      "links": [
+        {
+          "rel": "vestigingsprofiel",
+          "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000081280"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.kvk.nl/api/v1/basisprofielen/41129830/vestigingen"
+    },
+    {
+      "rel": "basisprofiel",
+      "href": "https://api.kvk.nl/api/v1/basisprofielen/41129830"
+    }
+  ]
+}
