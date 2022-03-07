@@ -1,0 +1,15 @@
+{
+  "rsin": "007162868",
+  "rechtsvorm": "Stichting",
+  "uitgebreideRechtsvorm": "Stichting",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.kvk.nl/api/v1/basisprofielen/41129830/eigenaar"
+    },
+    {
+      "rel": "basisprofiel",
+      "href": "https://api.kvk.nl/api/v1/basisprofielen/41129830"
+    }
+  ]
+}

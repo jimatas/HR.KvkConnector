@@ -1,0 +1,72 @@
+{
+  "vestigingsnummer": "000000080896",
+  "kvkNummer": "41129830",
+  "rsin": "007162868",
+  "indNonMailing": "Nee",
+  "formeleRegistratiedatum": "20100929",
+  "materieleRegistratie": {
+    "datumAanvang": "19870429"
+  },
+  "eersteHandelsnaam": "Locatie Museumpark",
+  "indHoofdvestiging": "Ja",
+  "indCommercieleVestiging": "Nee",
+  "adressen": [
+    {
+      "type": "correspondentieadres",
+      "indAfgeschermd": "Nee",
+      "volledigAdres": "Postbus 25035 3001HA Rotterdam",
+      "postcode": "3001HA",
+      "postbusnummer": 25035,
+      "plaats": "Rotterdam",
+      "land": "Nederland",
+      "geoData": {
+        "addresseerbaarObjectId": null,
+        "nummerAanduidingId": null,
+        "gpsLatitude": 0.0,
+        "gpsLongitude": 0.0,
+        "rijksdriehoekX": 0.0,
+        "rijksdriehoekY": 0.0,
+        "rijksdriehoekZ": 0.0
+      }
+    },
+    {
+      "type": "bezoekadres",
+      "indAfgeschermd": "Nee",
+      "volledigAdres": "Museumpark 40 3015CX Rotterdam",
+      "straatnaam": "Museumpark",
+      "huisnummer": 40,
+      "postcode": "3015CX",
+      "plaats": "Rotterdam",
+      "land": "Nederland",
+      "geoData": {
+        "addresseerbaarObjectId": "0599010000365613",
+        "nummerAanduidingId": "0599200000376146",
+        "gpsLatitude": 51.913611351848548,
+        "gpsLongitude": 4.469061397926896,
+        "rijksdriehoekX": 91828.92,
+        "rijksdriehoekY": 436523.03,
+        "rijksdriehoekZ": 0.0
+      }
+    }
+  ],
+  "websites": [
+    "www.hogeschoolrotterdam.nl"
+  ],
+  "sbiActiviteiten": [
+    {
+      "sbiCode": "8541",
+      "sbiOmschrijving": "Niet-universitair hoger onderwijs",
+      "indHoofdactiviteit": "Ja"
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.kvk.nl/api/v1/vestigingsprofielen/000000080896"
+    },
+    {
+      "rel": "basisprofiel",
+      "href": "https://api.kvk.nl/api/v1/basisprofielen/41129830"
+    }
+  ]
+}
