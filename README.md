@@ -1,6 +1,8 @@
 # HR.KvkConnector
-.NET API client for the Dutch Chamber of Commerce's new REST APIs. 
-Supports the Zoeken (search), Basisprofiel (company profile), and Vestigingsprofiel (branch profile) APIs. 
+.NET API client for the Netherlands Chamber of Commerce's new REST APIs. Supports the Zoeken (search), Basisprofiel (company profile), and Vestigingsprofiel (branch profile) APIs.
+
+No external dependencies, uses standard .NET libraries such as `HttpWebRequest` to communicate with the backend server and `DataContractJsonSerializer` to deserialize JSON payloads.
+
 Targets .NET standard 2.0.
 
 ## Example
