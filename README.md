@@ -3,7 +3,7 @@
 
 No external dependencies, uses standard .NET libraries such as `HttpWebRequest` to communicate with the backend server and `DataContractJsonSerializer` to deserialize JSON payloads.
 
-Targets .NET standard 2.0.
+Targets .NET Standard 2.0.
 
 ## Example
 
