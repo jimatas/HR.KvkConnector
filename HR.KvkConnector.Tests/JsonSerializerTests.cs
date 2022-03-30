@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using System.Runtime.Serialization;
 
-namespace HR.KvkConnector.Tests.Fixture
+namespace HR.KvkConnector.Tests
 {
     [TestClass]
     public class JsonSerializerTests
