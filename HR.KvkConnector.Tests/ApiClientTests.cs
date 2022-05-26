@@ -17,7 +17,7 @@ namespace HR.KvkConnector.Tests
         [TestMethod]
         public async Task GetVestiging_No_Issue_DateTime()
         {
-            IApiClient client = new ApiClient(new Uri("https://api.kvk.nl/api/v1"), "");
+            IApiClient client = new ApiClient(new Uri("https://api.kvk.nl/api/v1"), "l7xxd760b2c8441c490c941d6f2f81e6e387");
             var result = await client.GetVestigingsprofielAsync("000051127369");
             result.MaterieleRegistratie.DatumAanvang.Value.Date.Should().Be(new DateTime(2022, 1,3));
         }
@@ -25,7 +25,7 @@ namespace HR.KvkConnector.Tests
         [TestMethod]
         public async Task GetVestiging_DateTime_Reset_To_Minimum_Value()
         {
-            IApiClient client = new ApiClient(new Uri("https://api.kvk.nl/api/v1"), "");
+            IApiClient client = new ApiClient(new Uri("https://api.kvk.nl/api/v1"), "l7xxd760b2c8441c490c941d6f2f81e6e387");
             var result = await client.GetVestigingsprofielAsync("000019061714");
             result.MaterieleRegistratie.DatumAanvang.Value.Date.Should().Be(new DateTime(1, 1, 1));
         }
@@ -34,10 +34,10 @@ namespace HR.KvkConnector.Tests
         [TestMethod]
         public async Task GetZoeken_TestData_From_Live_Service_KVK()
         {
-            IApiClient client = new ApiClient(new Uri("https://api.kvk.nl/api/v1"), "");
+            IApiClient client = new ApiClient(new Uri("https://api.kvk.nl/api/v1"), "l7xxd760b2c8441c490c941d6f2f81e6e387");
             var result = await client.ZoekenAsync(new Parameters() { KvkNummer = "85058769" });
             var handelsNaam = result.Resultaten.First().Handelsnaam;
-            handelsNaam.Should().Be("the Right Direction BV");
+            handelsNaam.Should().Be("the Right Direction B.V.");
         }
 
         [TestMethod]
