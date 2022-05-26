@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Globalization;
 using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 
 namespace HR.KvkConnector.Model
 {
@@ -9,8 +11,18 @@ namespace HR.KvkConnector.Model
         /// <summary>
         /// Startdatum onderneming.
         /// </summary>
+        public DateTime? DatumAanvang
+        {
+            get
+            {
+                DateTime.TryParseExact(DatumAanvraagAsText, "yyyyMMdd", CultureInfo.InvariantCulture, DateTimeStyles.None, out var result);
+                return result;
+            }
+        }
+
+
         [DataMember(Name = "datumAanvang")]
-        public DateTime? DatumAanvang { get; set; }
+        public string DatumAanvraagAsText { get; set; }
 
         /// <summary>
         /// Einddatum onderneming.

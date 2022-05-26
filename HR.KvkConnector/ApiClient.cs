@@ -98,7 +98,6 @@ namespace HR.KvkConnector
                     var httpError = JsonSerializer.Deserialize<HttpError>(jsonString);
                     throw new ApiException((HttpStatusCode)httpError.StatusCode, httpError.ToApiError());
                 }
-
                 return JsonSerializer.Deserialize<TResult>(jsonString);
             }
         }
